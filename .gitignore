@@ -1,4 +1,9 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+###################
+# Production
+###################
+
+backend.sock
+
 
 ###################
 # React ignores
@@ -40,3 +45,13 @@ frontend/yarn-error.log*
 
 #static files
 static/
+
+# cache
+backend/__pycache__/
+blog/__pycache__/
+details/__pycache__/
+
+# media
+media/_versions/
+media/photos/
+media/uploads/
