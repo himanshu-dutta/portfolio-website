@@ -56,7 +56,7 @@ export const Blogs = () => {
   return (
     <section className="s2">
       <div className="portfolio-container">
-        <h3 style={h3_style}>Some of my past projects</h3>
+        <h3 style={h3_style}>Storm of the brain</h3>
 
         <div className="post-wrapper">
           {/* Adding all different posts altogether */}
